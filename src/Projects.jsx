@@ -23,7 +23,7 @@ const Projects = () => {
           const {id, imageUrl, url, title} = item
           return <a key={id} href={url} target='_blank' rel='noreferrer' className='project'>
             <img src={imageUrl} alt={title} className='img'/>
-            <h5></h5>
+            <h5>{title}</h5>
           </a>
         })}
       </div>
