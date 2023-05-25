@@ -1,21 +1,23 @@
 import heroImg from './assets/hero.svg'
 
 const Hero = () => {
-  return (
-    <section className="hero">
-      <div className="hero-center">
-        <div className="hero-title">
-          <h1>Contentful CMS</h1>
-          <p>
-            I'm pork belly pariatur selvage id offal austin post-ironic distillery fashion axe slow-carb. Aesthetic listicle vibecession, single-origin coffee selvage cloud bread wayfarers. Palo santo selfies cupping PBR&B succulents est man braid everyday carry commodo crucifix.
-          </p>
-          
-        </div>
-        <div className="img-container">
-            <img src={heroImg} alt="woman and the browser" className='img' />
-          </div>
-      </div>
-    </section>
-  )
+	return (
+		<section className='hero'>
+			<div className='hero-center'>
+				<div className='hero-title'>
+					<h1>Some work was done...</h1>
+					<p style={{ fontSize: '20px' }}>
+						Hi there! Here are some projects, that i've accomplished so far.
+						Have a nice time watching them! This site is built using react and
+						headless content management system -
+						<a href='https://www.contentful.com/'> Contentfull</a>
+					</p>
+				</div>
+				<div className='img-container'>
+					<img src={heroImg} alt='woman and the browser' className='img' />
+				</div>
+			</div>
+		</section>
+	)
 }
 export default Hero
